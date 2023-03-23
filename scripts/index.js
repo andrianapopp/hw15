@@ -1,29 +1,29 @@
 //1.
 for (let i = 10; i <= 20; i++) {
-    console.log(i + " ")
+    document.write(i + " ")
 }
 //2.
 for (let i = 10; i <= 20; i++) {
-    console.log(i * i + " ")
+    document.write(i * i + " ")
 }
 //3
 for (let i = 10; i <= 20; i++){
     let multiplication = i * 7
-    console.log(`${i} * 7 = ${multiplication}`)
+    document.write(`${i} * 7 = ${multiplication}`)
 }
 //4
 let sum = 0
 for(let i = 1; i <= 15; i++){
     sum += i
 }
-console.log(sum)
-5
+document.write(sum)
+//5
 let multi = 1
 for (let i = 15; i <= 35; i++){
     multi *= i
 }
-console.log(multi)
-6
+document.write(multi)
+//6
 let sum = 0
 let numOfNums = 0
 for (let i = 1; i <=500; i++){
@@ -31,7 +31,7 @@ for (let i = 1; i <=500; i++){
     numOfNums ++
 }
 let averageArithmetic = sum / nmOfNums
-console.log (averageArithmetic)
+document.write (averageArithmetic)
 //7
 let sum = 0
 for (let i=30; i <=80; i++){
@@ -39,20 +39,20 @@ for (let i=30; i <=80; i++){
         sum += i
     }
 }
-console.log(sum)
+document.write(sum)
 //8
 for (let i=100; i <=200; i++){
     if (i % 3 ===0){
-        console.log(i + " ")
+        document.write(i + " ")
     }
 }
 //9
 const a = prompt(`Natural number`)
 for (let i=1; i <= a; i++){
     if (a % i === 0)
-        console.log(i)
+        document.write(i)
 }
-10//11
+//10//11
 const a = prompt(`Natural number`)
 
 let divisors = []
@@ -68,9 +68,9 @@ for (let i=1; i <= a; i++){
     }
 }
 
-console.log(divisors)
-console.log(evenDivisors)
-console.log(sumOfEvenDivisors)
+document.write(divisors)
+document.write(evenDivisors)
+document.write(sumOfEvenDivisors)
 const a = prompt(`Natural number`)
 
 let divisors = []
@@ -78,7 +78,7 @@ for (let i=1; i <= a; i++) {
     if (a % i === 0)
         divisors.push(i)
 }
-console.log(divisors)
+document.write(divisors)
 
 let evenDivisors = 0
 let sumOfEvenDivisors = 0
@@ -88,13 +88,13 @@ for (let i=1; i <= a; i++){
         sumOfEvenDivisors += i
     }
 }
-console.log(evenDivisors)
-console.log(sumOfEvenDivisors)
+document.write(evenDivisors)
+document.write(sumOfEvenDivisors)
 //12.
 for (let i=1; i<=10; i++) {
     let j = 1
     while (j<=10) {
-        console.log(i + " * " + j + " = " + i*j);
+        document.write(i + " * " + j + " = " + i*j);
         j++;
     }
 }
